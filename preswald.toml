@@ -1,0 +1,20 @@
+[project]
+title = "Stock Market Explorer"
+version = "0.1.0"
+port = 8501
+slug = "stock-explorer"
+entrypoint = "hello.py"
+
+[branding]
+name = "Stock Market Explorer"
+primaryColor = "#1E88E5"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+
+[data.yahoo_stock]
+type = "csv"
+path = "data/yahoo_stock.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
